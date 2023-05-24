@@ -1,12 +1,13 @@
 <template>
   <Navbar/>
-  <h2>aaa</h2>
+  <Carousels/>
 </template>
 
 <script>
 import Navbar from '../components/shared/Navbar.vue'
+import Carousels from '../components/Home/Carousels.vue'
 export default {
-  components:{ Navbar}
+  components:{ Navbar, Carousels}
 }
 </script>
 
