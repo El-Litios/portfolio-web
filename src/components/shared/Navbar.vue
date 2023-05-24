@@ -1,7 +1,6 @@
 <template>
   <v-app-bar :elevation="2">
-    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-    <v-app-bar-title>Titulo</v-app-bar-title>
+    <v-app-bar-title>Carlos Guzmán Rojas</v-app-bar-title>
     <template v-slot:append>
       <v-btn icon="mdi-heart"></v-btn>
 
@@ -16,5 +15,9 @@
 export default {};
 </script>
 
-<style>
+<style lang="css" scoped>
+
+
+
+
 </style>
