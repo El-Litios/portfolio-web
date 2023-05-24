@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar :elevation="2">
+  <v-app-bar :elevation="0">
     <v-app-bar-title>Carlos Guzmán Rojas</v-app-bar-title>
     <template v-slot:append>
       <v-btn icon="mdi-heart"></v-btn>
@@ -16,8 +16,9 @@ export default {};
 </script>
 
 <style lang="css" scoped>
-
-
-
-
+.v-toolbar{
+  background-color: transparent !important;
+  color: beige;
+  
+}
 </style>
