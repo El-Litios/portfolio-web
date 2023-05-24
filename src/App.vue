@@ -12,6 +12,9 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="css">
 
+.v-application{
+  background-color: #041278cc !important;
+}
 </style>
