@@ -1,12 +1,10 @@
 <template>
   <v-app-bar :elevation="0">
-    <v-app-bar-title>Carlos Guzmán Rojas</v-app-bar-title>
     <template v-slot:append>
-      <v-btn icon="mdi-heart"></v-btn>
+      <v-btn icon="mdi-github" size="large"></v-btn>
 
-      <v-btn icon="mdi-magnify"></v-btn>
+      <v-btn icon="mdi-linkedin" size="large"></v-btn>
 
-      <v-btn icon="mdi-dots-vertical"></v-btn>
     </template>
   </v-app-bar>
 </template>
@@ -19,6 +17,9 @@ export default {};
 .v-toolbar{
   background-color: transparent !important;
   color: beige;
-  
+}
+
+.v-btn{
+  font-size: 25px !important;
 }
 </style>
