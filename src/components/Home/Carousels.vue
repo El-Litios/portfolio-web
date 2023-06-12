@@ -9,8 +9,8 @@
         <div class="text-center fill-height justify-center align-center">
           <div class="text-h1">Carlos Guzmán</div>
           <div>
-            <v-btn>
-              CV
+            <v-btn href="../../../public/cv.pdf">
+              Curriculum Vitae
               <v-icon end icon="mdi-download"></v-icon>
             </v-btn>
           </div>
@@ -41,6 +41,7 @@ export default {
   background-color: rgba(127, 93, 185, 0.9);
   color: #f5f5dc;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 @media (max-width: 1000px) {
