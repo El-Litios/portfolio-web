@@ -9,7 +9,7 @@
         <div class="text-center fill-height justify-center align-center">
           <div class="text-h1">Carlos Guzmán</div>
           <div>
-            <v-btn href="../../../public/cv.pdf">
+            <v-btn href="/cv.pdf">
               Curriculum Vitae
               <v-icon end icon="mdi-download"></v-icon>
             </v-btn>
@@ -47,7 +47,11 @@ export default {
 @media (max-width: 1000px) {
   .text-h1 {
     margin-top: 25%;
-    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  .text-h1 {
+    font-size: 3rem  !important;
   }
 }
 </style>
