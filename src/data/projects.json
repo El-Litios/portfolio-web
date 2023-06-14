@@ -2,80 +2,118 @@
   {
     "id": 0,
     "name": "Formulario Recoders",
-    "description": "Formulario de registro para Recoders",
+    "description": "Formulario de registro de usuario para Recoders.",
     "link": "https://elated-thompson-cf66a5.netlify.app/#/",
     "linkrepo": "https://github.com/El-Litios/recorders-register-app",
     "photo": "src/assets/projects-images/recoders.png",
     "icons": [
       {
-        "id": 1,
+        "id": 0,
         "name": "Vue",
         "src": "src/assets/icons/vue.png"
       },
       {
         "id": 1,
-        "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "name": "HTML5",
+        "src": "src/assets/icons/html5.png"
+      },
+      {
+        "id": 2,
+        "name": "CSS3",
+        "src": "src/assets/icons/css3.png"
       }
     ]
   },
   {
     "id": 1,
-    "name": "Formulario Recoders",
-    "description": "Formulario de registro para Recoders",
-    "link": "https://elated-thompson-cf66a5.netlify.app/#/",
-    "linkrepo": "https://github.com/El-Litios/recorders-register-app",
-    "photo": "src/assets/projects-images/recoders.png",
+    "name": "Cabañas LosQuillayes",
+    "description": "Sitio Web informativo para cabañas LosQuillayes.",
+    "link": "https://cabanaslosquillayes.netlify.app/#/",
+    "linkrepo": "https://github.com/El-Litios/website-cabanas",
+    "photo": "src/assets/projects-images/quillayes.png",
     "icons": [
       {
-        "id": 1,
+        "id": 0,
         "name": "Vue",
         "src": "src/assets/icons/vue.png"
       },
       {
         "id": 1,
-        "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "name": "HTML5",
+        "src": "src/assets/icons/html5.png"
+      },
+      {
+        "id": 2,
+        "name": "CSS3",
+        "src": "src/assets/icons/css3.png"
       }
     ]
   },
   {
     "id": 2,
-    "name": "Formulario Recoders",
-    "description": "Formulario de registro para Recoders",
-    "link": "https://elated-thompson-cf66a5.netlify.app/#/",
-    "linkrepo": "https://github.com/El-Litios/recorders-register-app",
-    "photo": "src/assets/projects-images/recoders.png",
+    "name": "Gestión de Personalizados",
+    "description": "Aplicacion para medir y visualizar avances fisicos de alumnos en un gimnasio.",
+    "link": "https://gestionalumnosgym.netlify.app/#/",
+    "linkrepo": "#",
+    "photo": "src/assets/projects-images/personalizadogym.png",
     "icons": [
       {
-        "id": 1,
+        "id": 0,
         "name": "Vue",
         "src": "src/assets/icons/vue.png"
       },
       {
         "id": 1,
-        "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "name": "HTML5",
+        "src": "src/assets/icons/html5.png"
+      },
+      {
+        "id": 2,
+        "name": "CSS3",
+        "src": "src/assets/icons/css3.png"
+      },
+      {
+        "id": 3,
+        "name": "Firebase",
+        "src": "src/assets/icons/firebase.png"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Formulario Recoders",
-    "description": "Formulario de registro para Recoders",
-    "link": "https://elated-thompson-cf66a5.netlify.app/#/",
-    "linkrepo": "https://github.com/El-Litios/recorders-register-app",
-    "photo": "src/assets/projects-images/recoders.png",
+    "name": "Backend Api segura",
+    "description": "Desarrollo Backend de una api segura con JWT en CodeIgniter4 con fines de aprendizaje y práctica.",
+    "linkrepo": "https://github.com/El-Litios/ci-secure-api",
+    "photo": "src/assets/projects-images/ci-api.png",
     "icons": [
       {
+        "id": 0,
+        "name": "CodeIgniter4",
+        "src": "src/assets/icons/codeigniter.png"
+      },
+      {
         "id": 1,
+        "name": "SQL",
+        "src": "src/assets/icons/sql.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Frontend Api Segura",
+    "description": "Desarrollo Frontend para consumo de api segura, en donde se evalua el token. Tambien, realiza un carro de compras con datos de la api.",
+    "linkrepo": "https://github.com/El-Litios/front-login-ci-api",
+    "photo": "src/assets/projects-images/front-api.png",
+    "icons": [
+      {
+        "id": 0,
         "name": "Vue",
         "src": "src/assets/icons/vue.png"
       },
       {
         "id": 1,
-        "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "name": "Javascript",
+        "src": "src/assets/icons/js.png"
       }
     ]
   }
