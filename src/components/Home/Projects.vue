@@ -17,11 +17,11 @@
             <v-row class="icons mt-1" no-gutters>
               <v-col
                 class="mr-1"
-                
+                cols="1"
                 v-for="i in p.icons"
                 :key="i.id"
               >
-                <v-img :src="i.src" height="30" width="15" :title="i.name"></v-img>
+                <v-img :src="i.src" height="30" width="25" :title="i.name"></v-img>
               </v-col>
             </v-row>
           </v-card-text>
@@ -49,16 +49,12 @@
   </v-container>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 import project from "@/data/projects.json";
-export default {
-  setup() {
-    const projects = ref(project);
 
-    return { projects };
-  },
-};
+const projects = ref(project);
+
 </script>
 
 <style lang="css" scoped>
@@ -72,7 +68,7 @@ export default {
 }
 
 .icons {
-  width: 80px;
+  width: 400px;
 }
 
 
