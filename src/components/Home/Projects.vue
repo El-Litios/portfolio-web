@@ -80,6 +80,8 @@ export default {
 .v-card {
   background-color: rgba(84, 85, 170, 0.4);
   color: #f5f5dc;
+  border: 1px solid #f5f5dc;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.55);
 }
 
 .v-card-subtitle {
