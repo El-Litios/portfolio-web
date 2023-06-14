@@ -116,6 +116,31 @@
         "src": "src/assets/icons/js.png"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Sitio Web NovaVisión",
+    "description": "Sitio web de propuesta para empresa NovaVision. Se utilizó Materialize como libreria de estilos.",
+    "linkrepo": "https://github.com/El-Litios/novavision",
+    "link": "https://aesthetic-pithivier-7220b6.netlify.app",
+    "photo": "src/assets/projects-images/novavision.png",
+    "icons": [
+      {
+        "id": 0,
+        "name": "HTML5",
+        "src": "src/assets/icons/html5.png"
+      },
+      {
+        "id": 1,
+        "name": "CSS3",
+        "src": "src/assets/icons/css3.png"
+      },
+      {
+        "id": 2,
+        "name": "Javascript",
+        "src": "src/assets/icons/js.png"
+      }
+    ]
   }
   
 ]
