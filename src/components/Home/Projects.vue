@@ -17,28 +17,31 @@
             <v-row class="icons mt-1" no-gutters>
               <v-col
                 class="mr-1"
-                lg="4"
-                sm="4"
-                md="4"
-                xs="12"
+                
                 v-for="i in p.icons"
                 :key="i.id"
               >
-                <v-img :src="i.src" height="25" :title="i.name"></v-img>
+                <v-img :src="i.src" height="30" width="15" :title="i.name"></v-img>
               </v-col>
             </v-row>
           </v-card-text>
 
-          <v-card-actions>
+          <v-card-actions v-if="p.link">
             <v-row class="text-center">
                 <v-col cols="6">
-                    <v-btn> Ir <v-icon end icon="mdi-open-in-new"></v-icon></v-btn>
+                    <v-btn :href="p.link"> Ir <v-icon end icon="mdi-open-in-new"></v-icon></v-btn>
                 </v-col>
                 <v-col cols="6">
-                    <v-btn> GitHub <v-icon end icon="mdi-github"></v-icon></v-btn>
+                    <v-btn :href="p.linkrepo" > GitHub <v-icon end icon="mdi-github"></v-icon></v-btn>
                 </v-col>
             </v-row>
-            
+          </v-card-actions>
+          <v-card-actions v-else>
+            <v-row class="text-center">
+                <v-col cols="12">
+                    <v-btn :href="p.linkrepo" > GitHub <v-icon end icon="mdi-github"></v-icon></v-btn>
+                </v-col>
+            </v-row>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -72,10 +75,7 @@ export default {
   width: 80px;
 }
 
-.icons .v-img {
-  background-color: rgba(155, 128, 205, 0.4);
-  border-radius: 100%;
-}
+
 
 .v-card {
   background-color: rgba(84, 85, 170, 0.4);
@@ -88,6 +88,7 @@ export default {
 
 .v-card-text {
   font-size: 15px;
+  height: 146px;
 }
 
 .v-card-actions .v-row .v-col{
