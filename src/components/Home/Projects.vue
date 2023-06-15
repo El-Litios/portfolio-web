@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <div class="title mt-4">
-      <h1>Proyectos:</h1>
-    </div>
+    <Title>
+      <template v-slot:title><h1>Proyectos</h1></template>
+    </Title>
 
     <v-row class="mt-3">
       <v-col lg="4" sm="4" md="4" xs="12" v-for="p in projects" :key="p.id">
@@ -52,21 +52,12 @@
 <script setup>
 import { ref } from "vue";
 import project from "@/data/projects.json";
-
+import Title from '@/components/Home/Title.vue'
 const projects = ref(project);
 
 </script>
 
 <style lang="css" scoped>
-.title {
-  text-align: center;
-  background-color: rgba(84, 85, 170, 0.4);
-  margin-right: 40%;
-  margin-left: 40%;
-  color: #f5f5dc;
-  border-radius: 5%;
-}
-
 .icons {
   width: 400px;
 }

@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <div class="title mt-4">
-      <h1>Acerca de mi:</h1>
-    </div>
+    <Title>
+      <template v-slot:title><h1>Acerca de mi:</h1></template>
+    </Title>
 
     <div class="content mt-3 mb-1">
       <p class="aboutme">
@@ -53,20 +53,11 @@
   </v-container>
 </template>
 
-<script>
-export default {};
+<script setup>
+import Title from '@/components/Home/Title.vue'
 </script>
 
 <style lang="css" scoped>
-.title {
-  text-align: center;
-  background-color: rgba(84, 85, 170, 0.4);
-  margin-right: 40%;
-  margin-left: 40%;
-  color: #f5f5dc;
-  border-radius: 5%;
-}
-
 .content {
   text-align: justify;
   background-color: rgba(84, 85, 170, 0.4);
