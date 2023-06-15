@@ -20,7 +20,7 @@
             <v-img
               :width="100"
               cover
-              src="src/assets/images/chile-logo.png"
+              src="images/chile-logo.png"
             ></v-img>
             <h4 class="text-center">Chileno</h4>
           </v-sheet>
@@ -32,7 +32,7 @@
               :width="100"
               :height="100"
               cover
-              src="src/assets/images/location-logo.png"
+              src="images/location-logo.png"
             ></v-img>
             <h4 class="text-center">Séptima Región</h4>
           </v-sheet>
@@ -43,7 +43,7 @@
             <v-img
               :width="100"              
               cover
-              src="src/assets/images/inacap-logo.jpg"
+              src="images/inacap-logo.jpg"
             ></v-img>
             <h4 class="text-center">Inacap</h4>
           </v-sheet>

@@ -10,17 +10,17 @@
       {
         "id": 0,
         "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "src": "icons/vue.png"
       },
       {
         "id": 1,
         "name": "HTML5",
-        "src": "src/assets/icons/html5.png"
+        "src": "icons/html5.png"
       },
       {
         "id": 2,
         "name": "CSS3",
-        "src": "src/assets/icons/css3.png"
+        "src": "icons/css3.png"
       }
     ]
   },
@@ -35,17 +35,17 @@
       {
         "id": 0,
         "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "src": "icons/vue.png"
       },
       {
         "id": 1,
         "name": "HTML5",
-        "src": "src/assets/icons/html5.png"
+        "src": "icons/html5.png"
       },
       {
         "id": 2,
         "name": "CSS3",
-        "src": "src/assets/icons/css3.png"
+        "src": "icons/css3.png"
       }
     ]
   },
@@ -60,22 +60,22 @@
       {
         "id": 0,
         "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "src": "icons/vue.png"
       },
       {
         "id": 1,
         "name": "HTML5",
-        "src": "src/assets/icons/html5.png"
+        "src": "icons/html5.png"
       },
       {
         "id": 2,
         "name": "CSS3",
-        "src": "src/assets/icons/css3.png"
+        "src": "icons/css3.png"
       },
       {
         "id": 3,
         "name": "Firebase",
-        "src": "src/assets/icons/firebase.png"
+        "src": "icons/firebase.png"
       }
     ]
   },
@@ -89,12 +89,12 @@
       {
         "id": 0,
         "name": "CodeIgniter4",
-        "src": "src/assets/icons/codeigniter.png"
+        "src": "icons/codeigniter.png"
       },
       {
         "id": 1,
         "name": "SQL",
-        "src": "src/assets/icons/sql.png"
+        "src": "icons/sql.png"
       }
     ]
   },
@@ -108,12 +108,12 @@
       {
         "id": 0,
         "name": "Vue",
-        "src": "src/assets/icons/vue.png"
+        "src": "icons/vue.png"
       },
       {
         "id": 1,
         "name": "Javascript",
-        "src": "src/assets/icons/js.png"
+        "src": "icons/js.png"
       }
     ]
   },
@@ -128,17 +128,17 @@
       {
         "id": 0,
         "name": "HTML5",
-        "src": "src/assets/icons/html5.png"
+        "src": "icons/html5.png"
       },
       {
         "id": 1,
         "name": "CSS3",
-        "src": "src/assets/icons/css3.png"
+        "src": "icons/css3.png"
       },
       {
         "id": 2,
         "name": "Javascript",
-        "src": "src/assets/icons/js.png"
+        "src": "icons/js.png"
       }
     ]
   }

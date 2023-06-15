@@ -2,7 +2,7 @@
   <v-carousel hide-delimiters :show-arrows="false">
     <v-carousel-item
       gradient="black"
-      src="src/assets/images/carousel-image.jpg"
+      src="images/carousel-image.jpg"
       cover
     >
       <v-sheet>
