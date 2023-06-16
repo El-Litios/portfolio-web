@@ -89,10 +89,6 @@ import Title from '@/components/Home/Title.vue'
 
 
 @media (max-width: 1000px) {
-  .title {
-    margin-right: auto;
-    margin-left: auto;
-  }
   .content {
     margin-right: auto;
     margin-left: auto;
