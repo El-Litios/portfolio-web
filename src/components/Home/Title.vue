@@ -13,4 +13,11 @@
   color: #f5f5dc;
   border-radius: 5%;
 }
+
+@media (max-width: 1280px) {
+  .title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 </style>
