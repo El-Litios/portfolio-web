@@ -65,6 +65,7 @@ import Title from '@/components/Home/Title.vue'
   margin-left: 10%;
   border-radius: 10px;
   padding: 30px 30px 30px 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.55);
 }
 
 .aboutme {
