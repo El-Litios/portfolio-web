@@ -32,13 +32,16 @@ const experiences = ref(experience);
 
 <style lang="css" scoped>
 .v-row {
-  background-color: rgba(84, 85, 170, 0.6);
+  background-color: rgba(84, 85, 170, 0.4);
   color: rgba(245, 245, 220, 0.9);
   
 }
 
 .experience-box{
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.55);
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 10px;
 }
 .v-img{
   margin: auto;
