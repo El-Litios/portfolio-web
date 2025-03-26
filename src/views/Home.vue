@@ -2,8 +2,8 @@
   <Navbar/>
   <Carousels/>
   <AboutMe/>
-  <Projects/>
   <Experience/>
+  <Projects/>
   <Footer />
 </template>
 

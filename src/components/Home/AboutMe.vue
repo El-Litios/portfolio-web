@@ -6,15 +6,12 @@
 
     <div class="content mt-3 mb-1">
       <p class="aboutme">
-        ¡Hola!, soy Ingeniero en Informática apasionado por la programación y el
-        desarrollo de software tanto FrontEnd como BackEnd. Estoy dispuesto a
-        tomar retos desafiantes para utilizar todas mis capacidades como
-        desarrollador y lograr objetivos. Además, siempre estoy motivado a
-        aprender cosas nuevas que me aporten a mi crecimiento profesional.
+        Apasionado del desarrollo de aplicaciones, con experiencia en la creación de soluciones eficientes y funcionales utilizando tecnologías modernas. Enfocado en ofrecer experiencias de usuario excepcionales, optimizando el rendimiento y asegurando la calidad en cada proyecto. Comprometido con el aprendizaje continuo y la aplicación de buenas prácticas en el desarrollo.
+        Además, cuento con amplio manejo en modelos de inteligencia artificial.
       </p>
 
       <v-row class="mt-5 mb-auto">
-        <v-col lg="4" sm="4" md="4" xs="12">
+        <v-col lg="6" sm="6" md="6" xs="12">
           <v-sheet>
             <h3 class="text-center">Nacionalidad</h3>
             <v-img
@@ -25,7 +22,7 @@
             <h4 class="text-center">Chileno</h4>
           </v-sheet>
         </v-col>
-        <v-col lg="4" sm="4" md="4" xs="12">
+        <v-col lg="6" sm="6" md="6" xs="12">
           <v-sheet>
             <h3 class="text-center">Localidad</h3>
             <v-img
@@ -35,17 +32,6 @@
               src="images/location-logo.png"
             ></v-img>
             <h4 class="text-center">Séptima Región</h4>
-          </v-sheet>
-        </v-col>
-        <v-col lg="4" sm="4" md="4" xs="12">
-          <v-sheet>
-            <h3 class="text-center">Casa de Estudio</h3>
-            <v-img
-              :width="100"              
-              cover
-              src="images/inacap-logo.jpg"
-            ></v-img>
-            <h4 class="text-center">Inacap</h4>
           </v-sheet>
         </v-col>
       </v-row>

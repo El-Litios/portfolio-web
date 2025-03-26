@@ -1,8 +1,20 @@
 [
   {
     "id": 1,
+    "companyName": "Danich",
+    "charge": "Desarrollador FrontEnd",
+    "typeContract": "Jornada Completa",
+    "location": "Curico, Chile",
+    "type": "Presencial",
+    "initDate": "Octubre 2023",
+    "endDate": "Actualidad",
+    "description": "Responsable del desarrollo front-end de aplicaciones web para clientes de la industria agrícola y logística, así como de proyectos internos de la organización. Diseño e implemento interfaces gráficas funcionales y escalables, integradas con servicios back-end, para gestionar datos operativos y optimizar procesos.",
+    "srcIcon": "icons/developer.png"
+  },
+  {
+    "id": 2,
     "companyName": "Banco Ripley CL",
-    "charge": "Desarrollador de Software",
+    "charge": "Analista de Software",
     "typeContract": "Contrato de Prácticas",
     "location": "Chile",
     "type": "En Remoto",
@@ -12,7 +24,7 @@
     "srcIcon": "icons/developer.png"
   },
   {
-    "id": 2,
+    "id": 3,
     "companyName": "Instituto Santo Tomás",
     "charge": "Soporte Informático",
     "typeContract": "Contrato de Prácticas",
